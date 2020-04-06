@@ -63,7 +63,7 @@ export const faq = {
   origFee: 0.05,
 
   // interest payment FAQ info
-  exampleLoanAmount: "$10,000",
+  exampleLoanAmount: "$9,995",
   interestRate36: "8.99%",
   interestRate60: "10.99%",
   APR36: "11.59%",
