@@ -85,12 +85,12 @@ export const faq = {
       col: false,
       colAmount: "$6,000",
     },
-    {
-      programName: "Clinical Trial Management",
-      maxAmount: "$9,995",
-      col: false,
-      colAmount: "$6,000",
-    },
+    // {
+    //   programName: "Clinical Trial Management",
+    //   maxAmount: "$9,995",
+    //   col: false,
+    //   colAmount: "$6,000",
+    // },
   ],
 }
 
@@ -106,7 +106,7 @@ export const schoolURL = "https://www.SCHOOLWEBSITE.com/" // update with url of 
 
 export const skfURL = "https://framinghamstate.skills.fund" // update with Skills Fund url
 
-export const headline = "Learn to Code at Framingham State University" // update headline as appropriate
+export const headline = "Learn New Skills at Framingham State University" // update headline as appropriate
 
 export const leadContent = {
   header: "Your last step on the path toward changing your career",
@@ -120,7 +120,7 @@ export const threeStepCardText = {
   step2: {
     header: "select your program",
     text:
-      "Choose between the Web Development, Data Science & Analytics, and Clinical Trial Management programs.",
+      "Choose between the Web Development and Data Science & Analytics programs.",
   },
   step3: `You'll be on your way to an exciting career in tech as part of ${schoolName}'s powerful network.`,
 }
@@ -278,84 +278,84 @@ export const programLoanInfo = [
       },
     ],
   },
-  {
-    name: "Clinical Trial Management",
-    url: "https://my.skills.fund/application?lenderCode=SFSEFSUCTM20",
-    loanInfo: {
-      // match loanInfo in first metro below
-      maxLoanAmt: 9995,
-      loanTerm36: true,
-      loanTerm60: true,
-      "0": {
-        // interest-only
-        k: 6,
-        apr36: 11.59,
-        apr60: 12.84,
-      },
-      "1": {
-        apr36: 12.36,
-        apr60: 13.14,
-      },
-    },
-    defaultLoanType: "0", // leave at 0 for interest-only, set to 1 for immediate repayment
-    showMetros: false,
-    showLoanTypes: true,
-    locations: ["Metro A", "Metro B", "Metro C"],
-    metros: [
-      {
-        location: "Metro A",
-        loanInfo: {
-          maxLoanAmt: 9995,
-          loanTerm36: true,
-          loanTerm60: true,
-          "0": {
-            // interest-only
-            k: 6,
-            apr36: 11.59,
-            apr60: 12.84,
-          },
-          "1": {
-            apr36: 12.36,
-            apr60: 13.14,
-          },
-        },
-      },
-      {
-        location: "Metro B",
-        loanInfo: {
-          maxLoanAmt: 15545,
-          loanTerm36: true,
-          loanTerm60: true,
-          "0": {
-            k: 5,
-            apr36: 11.16,
-            apr60: 12.51,
-          },
-          "1": {
-            apr36: 11.25,
-            apr60: 12.55,
-          },
-        },
-      },
-      {
-        location: "Metro C",
-        loanInfo: {
-          maxLoanAmt: 20545,
-          loanTerm36: true,
-          loanTerm60: true,
-          "0": {
-            k: 5,
-            apr36: 11.16,
-            apr60: 12.51,
-          },
-          "1": {
-            apr36: 11.25,
-            apr60: 12.55,
-          },
-        },
-      },
-    ],
-  },
+  // {
+  //   name: "Clinical Trial Management",
+  //   url: "https://my.skills.fund/application?lenderCode=SFSEFSUCTM20",
+  //   loanInfo: {
+  //     // match loanInfo in first metro below
+  //     maxLoanAmt: 9995,
+  //     loanTerm36: true,
+  //     loanTerm60: true,
+  //     "0": {
+  //       // interest-only
+  //       k: 6,
+  //       apr36: 11.59,
+  //       apr60: 12.84,
+  //     },
+  //     "1": {
+  //       apr36: 12.36,
+  //       apr60: 13.14,
+  //     },
+  //   },
+  //   defaultLoanType: "0", // leave at 0 for interest-only, set to 1 for immediate repayment
+  //   showMetros: false,
+  //   showLoanTypes: true,
+  //   locations: ["Metro A", "Metro B", "Metro C"],
+  //   metros: [
+  //     {
+  //       location: "Metro A",
+  //       loanInfo: {
+  //         maxLoanAmt: 9995,
+  //         loanTerm36: true,
+  //         loanTerm60: true,
+  //         "0": {
+  //           // interest-only
+  //           k: 6,
+  //           apr36: 11.59,
+  //           apr60: 12.84,
+  //         },
+  //         "1": {
+  //           apr36: 12.36,
+  //           apr60: 13.14,
+  //         },
+  //       },
+  //     },
+  //     {
+  //       location: "Metro B",
+  //       loanInfo: {
+  //         maxLoanAmt: 15545,
+  //         loanTerm36: true,
+  //         loanTerm60: true,
+  //         "0": {
+  //           k: 5,
+  //           apr36: 11.16,
+  //           apr60: 12.51,
+  //         },
+  //         "1": {
+  //           apr36: 11.25,
+  //           apr60: 12.55,
+  //         },
+  //       },
+  //     },
+  //     {
+  //       location: "Metro C",
+  //       loanInfo: {
+  //         maxLoanAmt: 20545,
+  //         loanTerm36: true,
+  //         loanTerm60: true,
+  //         "0": {
+  //           k: 5,
+  //           apr36: 11.16,
+  //           apr60: 12.51,
+  //         },
+  //         "1": {
+  //           apr36: 11.25,
+  //           apr60: 12.55,
+  //         },
+  //       },
+  //     },
+  //   ],
+  // },
 ]
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
